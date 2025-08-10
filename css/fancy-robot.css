@@ -12,7 +12,7 @@ top: 300px;
   background: linear-gradient(
     to bottom,
     #585252 0%,
-    rgba(88, 82, 82, 0.6) 80%,
+    rgba(143, 138, 138, 0.6) 00%,
     rgba(88, 82, 82, 0.2) 100%);
     border: 5px solid #3e3a3a;
   border-radius: 50%;
@@ -22,20 +22,20 @@ top: 300px;
 }
 
 .robot-eye-left {
-     height: 50px;
-  width: 50px;
+     height: 10%;
+  width: 10%;
   background-color: #BF0D0D;
   border-radius: 50%; 
       border-style: solid;
   border-color: rgb(22, 22, 22);
   position: relative;
-  left: 300px;
+  left: 250px;
   top: 150px;
 }
 
 .robot-eye-right {
-    height: 50px;
-  width: 50px;
+    height: 10%;
+  width: 10%;
   background-color: #BF0D0D;
   border-radius: 50%; 
     border-style: solid;
@@ -94,7 +94,10 @@ top: 300px;
    display: inline-block;
     height: 40px;
     width: 25px;
-    background-color: whitesmoke;
+    background: radial-gradient(circle at center, #fcfdfc 0%, rgb(160, 167, 160) 100%), 
+              url('https://fastly.picsum.photos/id/366/200/300.jpg?blur=2&hmac=1bLfJI9WAcUiNUbavSHsJE-ls5Wgwyggtxdi1UGYBKs');
+    background-size: cover;
+    background-blend-mode: overlay;
     border-radius: 8px;
     position: relative;
     left: 20px;
@@ -120,7 +123,7 @@ top: 300px;
   display: inline-block;
   position: relative;
   top: -50px;
-  left: 0px;
+  left: 5px;
     
 }
 
@@ -131,15 +134,15 @@ top: 300px;
   display: inline-block;
   position: relative;
   top: -50px;
-  left: 0px;
+  left: 5px;
 }
 
 .robot-hair-three {
   height: 110px;
   width: 100px;
-  background-color: #388029;
+  background: radial-gradient(circle at center, #388029 0%, limegreen 100%);
   display: inline-block;
   position: relative;
   top: 0px;
-  left: 0px;
+  left: 5px;
 }
